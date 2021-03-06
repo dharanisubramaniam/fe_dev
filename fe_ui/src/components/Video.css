@@ -1,0 +1,11 @@
+.video {
+  display: flex;
+}
+
+.video__sidebar {
+  flex: 0.2;
+}
+
+.video__container {
+  flex: 0.8;
+}

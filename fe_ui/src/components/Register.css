@@ -1,0 +1,114 @@
+.register {
+  border: 1px solid #bce0fd;
+  max-width: 500px;
+  height: max-content;
+  left: 33%;
+  position: fixed;
+  font-family: "Roboto", sans-serif;
+  color: #2699fb;
+}
+.register > h2 {
+  font-weight: 700;
+  text-align: center;
+  padding: 15px;
+}
+.register__signupFree {
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+.register__googleSignUp {
+  display: flex;
+  align-items: center;
+  border: 1px solid #2699fb;
+  width: max-content;
+  margin: 20px auto;
+  padding: 5px;
+  border-radius: 5px;
+}
+.register__googleSignUp > p {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-left: 10px;
+}
+.register > p {
+  text-align: center;
+  margin: 10px;
+}
+.register__firstNameInput {
+  display: flex;
+  align-items: center;
+  width: 155px;
+  margin: 20px 10px 20px 85px;
+  border-bottom: 2px solid #b0dbfd;
+}
+.register__Icon {
+  font-size: 1.3rem !important;
+  margin: 6px;
+}
+.register__lastNameInput {
+  width: 155px;
+  margin: 20px 85px 20px 10px;
+  border-bottom: 2px solid #b0dbfd;
+  padding: 6px 0px;
+}
+.register__nameInput {
+  display: flex;
+  align-items: center;
+}
+.register input {
+  border-style: none;
+}
+::placeholder {
+  color: #b0dbfd;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.register input:focus {
+  outline: none;
+}
+.register__emailInput {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #b0dbfd;
+  margin: 20px 85px 0px 85px;
+}
+.register__passwordInput {
+  display: flex;
+  align-items: center;
+  border-bottom: 2px solid #b0dbfd;
+  margin: 40px 85px 0px 85px;
+}
+.register__checkbox {
+  margin: 40px 85px 0px 85px;
+}
+.register__checkbox > label {
+  font-size: small;
+}
+.register__checkbox > input {
+  color: #2699fb;
+}
+.register__signUpButton {
+  margin-left: 40%;
+}
+input[type="submit"] {
+  padding: 5px 15px;
+  background: #2699fb;
+  border: 0 none;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 1rem;
+  color: white;
+}
+input[type="checkbox"] {
+  color: #2699fb;
+  border: 0 none;
+}
+.register__signIn {
+  margin: 20px 0px 20px 120px;
+}
+.register__signInLink {
+  color: #2699fb;
+}

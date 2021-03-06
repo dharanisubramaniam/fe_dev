@@ -1,0 +1,81 @@
+.header {
+  height: 75px;
+  max-width: 100%;
+  display: flex;
+  background-color: #262626;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  align-items: center;
+}
+
+.header__logo {
+  font-size: 1.3rem;
+  flex: 1;
+  margin-left: 2rem;
+}
+
+.header__logo > span {
+  float: right;
+}
+
+.header__menuContainer {
+  flex: 3;
+}
+
+.header__menu {
+  list-style-type: none;
+  display: flex;
+  float: right;
+}
+
+.header__menu > li {
+  margin: 0rem 1rem;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+}
+
+.header__signInContainer {
+  flex: 1;
+  overflow: auto;
+}
+
+.header__SignIn {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.5;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 2px solid white;
+  background-color: #262626;
+  border-radius: 0.75rem;
+  margin-left: 10%;
+}
+.header__onHover {
+  display: none;
+}
+nav a:hover + .header__onHover {
+  display: block;
+  color: blueviolet;
+}
+.header__SignUp {
+  text-decoration: none;
+  color: #262626;
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2.5;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border: 2px solid #262626;
+  background-color: white;
+  border-radius: 0.75rem;
+  margin-left: 10%;
+}
